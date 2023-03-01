@@ -5,6 +5,10 @@ document.addEventListener('keydown', (e)=> {
     jump()
     count()
 });
+document.addEventListener('click', (e)=> {
+    jump()
+    count()
+})
 
 function jump() {
     if (dino.classList != 'jump ') {
